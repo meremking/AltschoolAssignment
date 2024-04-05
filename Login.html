@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1-login</title>
+</head>
+<body>
+    <a href="./Table.html">Table</a>
+    <a href="./Portfolio.html">Personal-portfolio</a>
+    <form>
+        <h1>Fill in your details</h1>
+        <section>
+            <label for="fullname">Name: </label>
+        </section> 
+           <input id="fullname" type="text" required>
+        <section>
+            <label for="email">Email: </label> 
+        </section> 
+        <input id="email" type="email" required>
+        <section>
+            <label for="bio">Enter a message: </label>
+        </section>    
+            <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Write a message..."></textarea>
+        <section>
+            <label for="gender">What is your gender?</label>
+            <select name="gender" id="gender">
+                <option value="">Select an option</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Other</option>
+            </select>
+        </section>  
+            <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
